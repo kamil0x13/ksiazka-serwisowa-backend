@@ -4,7 +4,6 @@ require('./db/mongoose')
 const bodyParser = require('body-parser')
 const path = require('path')
 
-
 //Routers
 const userRouter = require('./routers/user')
 const equipmentRouter = require('./routers/equipment')
@@ -12,7 +11,7 @@ const equipmentRouter = require('./routers/equipment')
 const app = express()
 const port = 3001
 
-process.title = 'myApp'
+//process.title = 'myApp'
 
 //Across port error change before production >>>
 app.use(function (req, res, next) {
