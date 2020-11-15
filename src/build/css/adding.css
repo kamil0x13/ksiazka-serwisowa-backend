@@ -1,0 +1,66 @@
+.adding{
+    padding: .5rem;
+}
+
+.adding__titleText{
+    text-align: center;
+}
+
+.adding__canelButton{
+    display: block;
+    margin: 0 auto;
+    padding: .5rem 2rem;
+    margin-top: 1rem;
+}
+
+.adding__form{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.adding__label{
+    text-align: center;
+    padding: .5rem;
+}
+
+.adding__input{
+    padding: .5rem;
+    text-align: center;
+}
+
+.adding__fieldsTitle{
+    margin: 1rem;
+}
+
+.adding__fieldsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.adding__textarea{
+    padding: .5rem;
+    min-height: 10vh;
+    resize: vertical;
+    white-space: pre-line;
+}
+
+.adding__deleteFieldButton{
+    margin-top: .5rem;
+    padding: .5rem;
+}
+
+.adding__addFieldButton{
+    margin: 1rem 0;
+    padding: .5rem;
+}
+
+.adding__submit{
+    padding: .5rem;
+}

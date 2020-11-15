@@ -1,0 +1,117 @@
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 1vh 1vw;
+    margin-top: 1rem;
+}
+
+.regForm, .loginForm{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.regForm__label, .loginForm__label{
+    text-align: center;
+    padding: .5rem;
+}
+
+.regForm__input, .loginForm__input{
+    padding: .5rem;
+    text-align: center;
+}
+
+.loginForm__submit, .regForm__submit{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+
+.regForm__p, .loginForm__p{
+    text-align: center;
+}
+
+.regForm__button, .loginForm__button{
+    margin-top: 1rem;
+    padding: .5rem;
+}
+
+
+.regForm__title, .loginForm__title{
+    text-align: center;
+    padding: 1rem;
+}
+
+.topBar, .--loguot{
+    display: flex;
+    padding: .5rem;
+    align-content: space-between;
+}
+
+.topBar__h2{
+    flex: 1;
+}
+
+.topBar__button{
+    padding: .5rem;
+}
+
+.preview{
+    padding: 0 1rem;
+}
+
+.preview__searchAndAdd{
+
+}
+
+.preview__searchInput{
+    padding: .5rem;
+}
+
+.preview__addButton{
+    padding: .5rem;
+}
+
+.preview__elementContainer{
+    margin-top: 1rem;
+    padding: .5rem;
+    border: .1rem solid #000;
+}
+
+.previwe__elementName{
+    text-align: center;
+}
+
+.preview__fieldContainer{
+    padding: .5rem 0;
+}
+
+.preview__fieldName{
+    font-weight: bold;
+}
+
+.preview__fieldValue{
+    white-space: pre-line;
+}
+
+.preview__elementDeleteButton{
+    padding: .5rem 2rem;
+    margin-top: 1rem;
+}
+
+.preview__elementEditButton{
+    padding: .5rem 2rem;
+    margin-top: 1rem;
+}
+
+.preview__elementButtonsConainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}

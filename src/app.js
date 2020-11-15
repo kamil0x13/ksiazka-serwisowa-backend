@@ -1,6 +1,9 @@
 const express = require('express')
 require('./db/mongoose')
 
+const bodyParser = require('body-parser')
+const path = require('path')
+
 //Routers
 const userRouter = require('./routers/user')
 const equipmentRouter = require('./routers/equipment')
@@ -29,10 +32,18 @@ app.use(function (req, res, next) {
     next()
 })
 
+app.use(express.static(path.join(__dirname, 'build')))
+
+app.use(bodyParser.json())
+
 app.use(express.json())
 
 //Routers
 app.use(userRouter)
 app.use(equipmentRouter)
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'build/index.html'))
+})
 
 module.exports = app
