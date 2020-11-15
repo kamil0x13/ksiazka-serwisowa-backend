@@ -4,6 +4,7 @@ require('./db/mongoose')
 const bodyParser = require('body-parser')
 const path = require('path')
 
+
 //Routers
 const userRouter = require('./routers/user')
 const equipmentRouter = require('./routers/equipment')
